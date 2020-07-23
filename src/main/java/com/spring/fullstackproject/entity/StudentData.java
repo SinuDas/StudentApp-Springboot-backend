@@ -2,10 +2,7 @@ package com.spring.fullstackproject.entity;
 
 
 
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
@@ -13,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 
 
-
+//collection name in database
 @Document(collection = "student_info")
 
   public class StudentData {
